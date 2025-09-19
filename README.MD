@@ -55,7 +55,7 @@ O objetivo é organizar os dados de forma eficiente utilizando **estruturas de d
    ```bash
    git clone https://github.com/seuusuario/controle-insumos.git
    cd controle-insumos
-````
+
 
 2. Execute o script em Python:
 
