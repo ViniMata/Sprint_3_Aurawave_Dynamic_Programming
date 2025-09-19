@@ -7,12 +7,12 @@ O objetivo é organizar os dados de forma eficiente utilizando **estruturas de d
 
 ## Estruturas Implementadas
 
-### 1. Fila (Queue)
+### 1. Fila
 - Representa o **consumo em ordem cronológica**.
 - Cada novo insumo consumido é inserido no final da fila.
 - Permite remover e consultar na ordem em que os consumos aconteceram.
 
-### 2. Pilha (Stack)
+### 2. Pilha
 - Representa consultas em **ordem inversa** (últimos consumos primeiro).
 - O último insumo consumido é o primeiro a ser consultado.
 
