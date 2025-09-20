@@ -11,10 +11,16 @@ O objetivo é organizar os dados de forma eficiente utilizando **estruturas de d
 - Representa o **consumo em ordem cronológica**.
 - Cada novo insumo consumido é inserido no final da fila.
 - Permite remover e consultar na ordem em que os consumos aconteceram.
+- **Complexidade dos métodos principais:**  
+  - `enfileirar`: O(1)  
+  - `desenfileirar`: O(1)  
 
 ### 2. Pilha
 - Representa consultas em **ordem inversa** (últimos consumos primeiro).
 - O último insumo consumido é o primeiro a ser consultado.
+- **Complexidade dos métodos principais:**  
+  - `empilhar`: O(1)  
+  - `desempilhar`: O(1)  
 
 ---
 
@@ -23,11 +29,13 @@ O objetivo é organizar os dados de forma eficiente utilizando **estruturas de d
 ### Busca Sequencial
 - Percorre todos os registros de consumo até encontrar o insumo procurado.
 - Útil quando os dados **não estão ordenados**.
+- **Complexidade:** O(n)
 
 ### Busca Binária
 - Requer que os dados estejam **ordenados** previamente.
 - Divide a lista ao meio sucessivamente até encontrar o insumo desejado.
 - Mais eficiente em grandes volumes de dados.
+- **Complexidade:** O(log n)
 
 ---
 
@@ -36,10 +44,12 @@ O objetivo é organizar os dados de forma eficiente utilizando **estruturas de d
 ### Merge Sort
 - Algoritmo de **divisão e conquista**.
 - Divide a lista em partes menores, ordena recursivamente e mescla os resultados.
+- **Complexidade:** O(n log n)
 
 ### Quick Sort
 - Escolhe um **pivô** e reorganiza os elementos menores à esquerda e os maiores à direita.
 - Também baseado em **divisão e conquista**, sendo rápido em média.
+- **Complexidade:** O(n log n) no caso médio, O(n²) no pior caso
 
 ---
 
@@ -49,13 +59,14 @@ O objetivo é organizar os dados de forma eficiente utilizando **estruturas de d
 - Métodos como `insere`, `remove`, `empilha` e `desempilha` foram criados para manipular os dados internamente.
 
 ---
+
 ## Como Executar
 
 1. Clone este repositório:
    ```bash
    git clone https://github.com/ViniMata/Sprint_3_Aurawave_Dynamic_Programming
    cd Sprint_3_Aurawave_Dynamic_Programming
-
+   ``` 
 
 2. Execute o script em Python:
 
