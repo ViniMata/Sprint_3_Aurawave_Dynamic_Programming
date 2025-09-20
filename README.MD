@@ -54,7 +54,7 @@ O objetivo é organizar os dados de forma eficiente utilizando **estruturas de d
 1. Clone este repositório:
    ```bash
    git clone https://github.com/ViniMata/Sprint_3_Aurawave_Dynamic_Programming
-   cd controle-insumos
+   cd Sprint_3_Aurawave_Dynamic_Programming
 
 
 2. Execute o script em Python:
