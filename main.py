@@ -158,6 +158,7 @@ def teste_ordenacoes(insumos):
 # Execução principal
 def main():
     insumos = gerar_insumos(10)
+    print(insumos)
     teste_fila(insumos)
     teste_pilha(insumos)
     teste_buscas(insumos)
