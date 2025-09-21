@@ -12,15 +12,15 @@ O objetivo é organizar os dados de forma eficiente utilizando **estruturas de d
 - Cada novo insumo consumido é inserido no final da fila.
 - Permite remover e consultar na ordem em que os consumos aconteceram.
 - **Complexidade dos métodos principais:**  
-  - `enfileirar`: O(1)  
-  - `desenfileirar`: O(1)  
+  - `insere`: O(1)  
+  - `remove`: O(1)  
 
 ### 2. Pilha
 - Representa consultas em **ordem inversa** (últimos consumos primeiro).
 - O último insumo consumido é o primeiro a ser consultado.
 - **Complexidade dos métodos principais:**  
-  - `empilhar`: O(1)  
-  - `desempilhar`: O(1)  
+  - `empilha`: O(1)  
+  - `desempilha`: O(1)  
 
 ---
 
