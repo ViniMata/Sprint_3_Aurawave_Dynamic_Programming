@@ -92,7 +92,7 @@ O objetivo é organizar os dados de forma eficiente utilizando **estruturas de d
 
 ---
 
-## Integrantes
+## Membros da Equipe
 
 * Fabiano RM555524
 * Lorran RM558982
