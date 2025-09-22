@@ -90,3 +90,13 @@ O objetivo é organizar os dados de forma eficiente utilizando **estruturas de d
 * **Busca Sequencial e Binária** → Auxiliam na localização de insumos específicos em relatórios.
 * **Merge Sort e Quick Sort** → Permitem organizar os insumos por critérios como quantidade consumida ou validade, ajudando na previsão de reposição.
 
+---
+
+## Integrantes
+
+* Fabiano RM555524
+* Lorran RM558982
+* Maria RM557478
+* Pedro RM556268
+* Vinícius RM555200
+
